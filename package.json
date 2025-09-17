@@ -4,10 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "prebuild": "chmod +x node_modules/.bin/*",
     "dev": "npx vite",
     "build": "npx vite build",
     "preview": "npx vite preview",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "vercel-build": "rm -rf node_modules && npm install && npx vite build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
