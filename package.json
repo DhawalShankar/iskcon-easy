@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint ."
   },
@@ -20,9 +20,7 @@
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.9.1"
   },
-  "engines": {
-    "node": ">=22.17.0"
-  },
+
   "devDependencies": {
     "@eslint/js": "^9.33.0",
     "@types/react": "^19.1.10",
